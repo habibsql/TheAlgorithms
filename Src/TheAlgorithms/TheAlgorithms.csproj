@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ArrayRelated\DuplicateRemove\ReadMe.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="ArrayRelated\DuplicateRemove\ReadMe.txt" />
+  </ItemGroup>
+
+</Project>

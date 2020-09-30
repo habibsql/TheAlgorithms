@@ -1,0 +1,1 @@
+﻿- Remove a node from double-linked list?
