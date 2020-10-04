@@ -5,7 +5,7 @@ using Xunit;
 
 namespace TheAlgorithms.StringRelated.ContainsDigitOnly
 {
-    public class ContainDigitTests
+    public class ContainDigitTest
     {
         private readonly ContainDigit containDigit = new ContainDigit();
 

@@ -5,7 +5,7 @@ using Xunit;
 
 namespace TheAlgorithms.StringRelated.Palindrome
 {
-    public class PalindromeTests
+    public class PalindromeTest
     {
         private readonly Palindrome palindrome = new Palindrome();
 

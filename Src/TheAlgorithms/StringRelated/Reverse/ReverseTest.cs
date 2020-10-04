@@ -5,7 +5,7 @@ using Xunit;
 
 namespace TheAlgorithms.StringRelated.Reverse
 {
-    public class ReverseTests
+    public class ReverseTest
     {
         private readonly Reverse reverse = new Reverse();
 

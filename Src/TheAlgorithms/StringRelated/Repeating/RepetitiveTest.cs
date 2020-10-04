@@ -5,7 +5,7 @@ using Xunit;
 
 namespace TheAlgorithms.StringRelated.Repeating
 {
-    public class RepetitiveTests
+    public class RepetitiveTest
     {
         private readonly Repetitive repetitive = new Repetitive();
 
