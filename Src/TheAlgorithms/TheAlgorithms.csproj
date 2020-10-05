@@ -11,5 +11,14 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DynamicProgramming\" />
+    <Folder Include="Greedy\" />
+    <Folder Include="Backtracking\" />
+    <Folder Include="DevideAndConquer\" />
+    <Folder Include="GraphRelated\" />
+    <Folder Include="TreeRelated\" />
+  </ItemGroup>
+
 
 </Project>
