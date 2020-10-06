@@ -1,5 +1,7 @@
 # TheAlgorithms
-Demonastrate various important algorithms 
+
+Demonastrate various important algorithms for learning better programming
+
   1. Array Related
   2. LinkList Related
   3. Graph Related
@@ -10,4 +12,4 @@ Demonastrate various important algorithms
   8. Backtracking
   9. DynamicProgramming
   10. DevideAndConquer
-for learning programming better.
+ 
