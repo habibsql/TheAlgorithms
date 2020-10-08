@@ -7,3 +7,6 @@
 - Input3 = {3, 4, 15, 20, 30, 70, 80, 120}
 
 -Output = {20, 80}
+
+
+- Time complexity: O(n^3)
