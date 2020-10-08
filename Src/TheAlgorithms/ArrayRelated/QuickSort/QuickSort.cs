@@ -8,52 +8,113 @@ namespace TheAlgorithms.ArrayRelated.QuickSort
     {
 
         /// <summary>
-        /// Sort an unsorted integer array using quicksort algorithm 
+        /// Sort an unsorted integer array using quicksort algorithm recursively
         /// </summary>
         /// <param name="array">unsorted array</param>
         /// <returns>sorted array</returns>
-        public void Sort(int[] array)
+        public void SortRecursive(int[] array)
         {
-            int lowIndex = 0;
-            int heighIndex = array.Length - 1;
+            int lowerBound = 0;
+            int upperBound = array.Length - 1;
 
-            DoQuickSort(array, lowIndex, heighIndex);
+            DoQuickSortRecursive(array, lowerBound, upperBound);
         }
 
-
-        private void DoQuickSort(int[] array, int lowIndex, int heightIndex)
+        private void DoQuickSortRecursive(int[] array, int lowerBound, int upperBound)
         {
-            if (lowIndex < heightIndex)
+            if (lowerBound < upperBound)
             {
-                int partitionIndex = DoPartition(array, lowIndex, heightIndex);
-
-                DoQuickSort(array, lowIndex, partitionIndex - 1);
-                DoQuickSort(array, partitionIndex + 1, heightIndex);
+                int partitionIndex = DoPartition(array, lowerBound, upperBound);
+                DoQuickSortRecursive(array, lowerBound, partitionIndex - 1);
+                DoQuickSortRecursive(array, partitionIndex + 1, upperBound);
             }
         }
 
-
-        private int DoPartition(int[] array, int lowIndex, int heighIndex)
+        private int DoPartition(int[] array, int lowerBound, int upperBound)
         {
-            int pivot = array[heighIndex];
-            int index = lowIndex - 1;
+            int pivot = array[lowerBound];
+            int startIndex = lowerBound;
+            int endIndex = upperBound;
 
-            for (int j = lowIndex; j < heighIndex; j++)
+            while (startIndex < endIndex)
             {
-                if (array[j] < pivot)
+                while (array[startIndex] <= pivot && startIndex < endIndex)
                 {
-                    index++;
-                    int temp1 = array[index];
-                    array[index] = array[j];
-                    array[j] = temp1;
+                    startIndex++;
+                }
+
+                while (array[endIndex] > pivot)
+                {
+                    endIndex--;
+                }
+
+                if (startIndex < endIndex)
+                {
+                    Swap(array, startIndex, endIndex);
                 }
             }
 
-            int temp2 = array[index + 1];
-            array[index + 1] = array[heighIndex];
-            array[heighIndex] = temp2;
+            Swap(array, lowerBound, endIndex);
 
-            return index + 1;
+            return endIndex;
+
+        }
+
+        /// <summary>
+        /// Sort unsorted array using quick sort with iteratively
+        /// </summary>
+        /// <param name="array"></param>
+        public void SortIterative(int[] array)
+        {
+            var stack = new Stack<int>();
+            stack.Push(array.Length - 1);
+            stack.Push(0);            
+
+            while (stack.Count > 0)
+            {
+                int lowIndex = stack.Pop();
+                int heighIndex = stack.Pop();
+              
+                int pivotIndex = DoPartition(array, lowIndex, heighIndex);
+
+                if (pivotIndex - 1 > lowIndex)
+                {
+                    stack.Push(pivotIndex - 1);
+                    stack.Push(lowIndex);                   
+                }
+                if (pivotIndex + 1 < heighIndex)
+                {
+                    stack.Push(heighIndex);
+                    stack.Push(pivotIndex + 1);                                
+                }
+            }
+        }
+
+        private int PartitionIterative(int[] array, int lowIndex, int highIndex)
+        {
+            int pivotValue = array[highIndex];
+            int index = lowIndex - 1;
+
+            for (int j = lowIndex; j <= highIndex - 1; j++)
+            {
+                if (array[j] <= pivotValue)
+                {
+                    index++;
+                    Swap(array, index, j);
+                }
+            }
+
+            index++;
+            Swap(array, index, highIndex);
+
+            return index;
+        }
+
+        private void Swap(int[] arrary, int startIndex, int endIndex)
+        {
+            int temp = arrary[startIndex];
+            arrary[startIndex] = arrary[endIndex];
+            arrary[endIndex] = temp;
         }
     }
 }
