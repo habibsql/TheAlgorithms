@@ -8,8 +8,10 @@ Demonastrate various important algorithms for learning better programming
   4. Tree related
   5. String Related
   6. Math Related
-  7. Greedy
-  8. Backtracking
-  9. DynamicProgramming
-  10. DevideAndConquer
+  7. Searching
+  8. Sorting
+  9. Greedy
+  10. Backtracking
+  11. DynamicProgramming
+  12. DevideAndConquer
  
