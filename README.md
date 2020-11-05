@@ -6,7 +6,7 @@ Demonastrate various important algorithms for learning better programming.
 
 A step by step procedure to solve logical problems. Each step has clear instructions.
 
-![what](https://github.com/habibsql/TheAlgorithms/blob/master/docs/ag1.jpg?raw=true)
+![what](https://github.com/habibsql/TheAlgorithms/blob/master/docs/ag1.PNG?raw=true)
 
 A recipe is a good example of an algorithm because it says what must be done, step by step.
 It takes inputs (ingredients) and produce an output (complete dish). Informally, an algorithm
@@ -26,13 +26,15 @@ Various types of algorithm exists. Sometime it called algorithm design technique
 * *Iterative Improvement*: Reapeatedly improve current solution.
 * *Randomization*: Use random numbers,
 
-![types1](https://github.com/habibsql/TheAlgorithms/blob/master/docs/at.jpg?raw=true)
+![types1](https://github.com/habibsql/TheAlgorithms/blob/master/docs/at.png?raw=true)
+
+### We can check few examples so that understand how types are used in few predefined algorithms. 
 
 ![type2](https://github.com/habibsql/TheAlgorithms/blob/master/docs/ex1.jpg?raw=true)
 
 ## Algorithm Properties
 
-###Algorithm must have 5 properties:
+### Algorithm must have 5 properties:
 
 * *Input Specified*: Input is from a specified set, I. 
 * *Output Specified*: Output is from a specified set, O
@@ -41,12 +43,6 @@ Various types of algorithm exists. Sometime it called algorithm design technique
 * *Correct*: The output is correct.
 
 ![properties](https://github.com/habibsql/TheAlgorithms/blob/master/docs/ap.jpeg?raw=true)
-
-
-## Algorithm Characteristics
-
-![Characteristics](https://github.com/habibsql/TheAlgorithms/blob/master/docs/char.jpg?raw=true)
-
 
 ## Algorithm Efficency
 
@@ -59,10 +55,8 @@ Various types of algorithm exists. Sometime it called algorithm design technique
 * Big Oh(asymptotic analysis) provies a formula that associate n the problem size, with 
 t, the processing time required to solve the problem. 
 
-![Efficiency](https://github.com/habibsql/TheAlgorithms/blob/master/docs/ae.jpg?raw=true)
 
-
-## Best Algorithm choose
+## Best Algorithm choice
 
 For a particualr problem there can be many solutions. It is important to analysis the given context,
 constraint etc. then analysis the complexity then choose the algorithm.
