@@ -18,17 +18,17 @@ can be called "a list of steps".
 
 Various types of algorithm exists. Sometime it called algorithm design techniques. Most funndamental types of algorithms are:
 
-* *Bruthforce*: Try all possibilities.
-* *Divide and Conquer*: Break large problem into distinct sub problems.
-* *Transformation*: Convert problem into another one.
-* *Dynamic Programming*: Break problem into overlapping sub problems.
-* *Greedy*: Reapeatly do until find the best one.
-* *Iterative Improvement*: Reapeatedly improve current solution.
-* *Randomization*: Use random numbers,
+* **Bruthforce**: Try all possibilities.
+* **Divide and Conquer**: Break large problem into distinct sub problems.
+* **Transformation**: Convert problem into another one.
+* **Dynamic Programming**: Break problem into overlapping sub problems.
+* **Greedy**: Reapeatly do until find the best one.
+* **Iterative Improvement**: Reapeatedly improve current solution.
+* **Randomization**: Use random numbers,
 
 ![types1](https://github.com/habibsql/TheAlgorithms/blob/master/docs/at.png?raw=true)
 
-### We can check few examples so that understand how types are used in few predefined algorithms. 
+### We can check few examples so that understand how types are used in few predefined algorithms:
 
 ![type2](https://github.com/habibsql/TheAlgorithms/blob/master/docs/ex1.jpg?raw=true)
 
@@ -36,11 +36,11 @@ Various types of algorithm exists. Sometime it called algorithm design technique
 
 **Algorithm must have 5 properties**:
 
-* *Input Specified*: Input is from a specified set, I. 
-* *Output Specified*: Output is from a specified set, O
-* *Effectiveness*: Its steps are defined precisely and can be done.
-* *Finiteness*: Finitely many steps are executed, each taking finite time.
-* *Correct*: The output is correct.
+* **Input Specified**: Input is from a specified set, I. 
+* **Output Specified**: Output is from a specified set, O
+* **Effectiveness**: Its steps are defined precisely and can be done.
+* **Finiteness**: Finitely many steps are executed, each taking finite time.
+* **Correct**: The output is correct.
 
 ![properties](https://github.com/habibsql/TheAlgorithms/blob/master/docs/ap.jpeg?raw=true)
 
