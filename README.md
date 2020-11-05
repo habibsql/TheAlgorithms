@@ -34,7 +34,7 @@ Various types of algorithm exists. Sometime it called algorithm design technique
 
 ## Algorithm Properties
 
-### Algorithm must have 5 properties:
+**Algorithm must have 5 properties**:
 
 * *Input Specified*: Input is from a specified set, I. 
 * *Output Specified*: Output is from a specified set, O
