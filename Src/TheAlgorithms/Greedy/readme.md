@@ -1,6 +1,6 @@
 ﻿## Overview:
 
-![overview](https://github.com/habibsql/TheAlgorithms/blob/main/Src/TheAlgorithms/Greedy/flow.JPG?raw=true)
+![overview](https://github.com/habibsql/TheAlgorithms/blob/master/Src/TheAlgorithms/Greedy/flow.JPG?raw=true)
 
 * Prefer shortterm view over long term view, which sometimes work sometimes counter productive.
 * Simple type of stratigy 
@@ -13,13 +13,18 @@ of finding global optimum.
 * Some optimization problems, dynamic programming is overkill. Greedy is simpler and more efficient there.
 
 ## Example: 
-** Input1: currency {1, 2, 5, 10, 50, 100, 500, 100}
-** Input2: 70
-** Output: 2 ( Note 50 + Note 20)
+```
+Input1: 
+ currency {1, 2, 5, 10, 50, 100, 500, 100}
+Input2: 
+ 70
+Output: 
+ 2 ( Note 50 + Note 20)
+```
 
 ## Properties:
-** Greedy choice property: A global optimum can be arrived at by selecting a local optimum.
-** Optimal Substructure: A optimal solution to the problem contains to the optimal solution to subproblems.
+**Greedy choice property**: A global optimum can be arrived at by selecting a local optimum.
+**Optimal Substructure**: A optimal solution to the problem contains to the optimal solution to subproblems.
 
 ## Applications:
 * Minimum Spaning Tree
