@@ -1,6 +1,6 @@
 ﻿## Overview:
 
-![overview](https://github.com/habibsql/TheAlgorithms/blob/main/Src/TheAlgorithms/Backtracking/flow.JPG?raw=true)
+![overview](https://github.com/habibsql/TheAlgorithms/blob/master/Src/TheAlgorithms/Backtracking/flow.JPG?raw=true)
 
 * RJ Walkar first describe this algorithm in 1960.
 * Letter S. Golamb and L. Baumert develop it.
