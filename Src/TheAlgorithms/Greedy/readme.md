@@ -1,6 +1,6 @@
-﻿## Overview:
+﻿![overview](https://github.com/habibsql/TheAlgorithms/blob/master/Src/TheAlgorithms/Greedy/flow.JPG?raw=true)
 
-![overview](https://github.com/habibsql/TheAlgorithms/blob/master/Src/TheAlgorithms/Greedy/flow.JPG?raw=true)
+## Overview:
 
 * Prefer shortterm view over long term view, which sometimes work sometimes counter productive.
 * Simple type of stratigy 
