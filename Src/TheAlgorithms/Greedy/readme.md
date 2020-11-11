@@ -1,4 +1,4 @@
-﻿![overview](https://github.com/habibsql/TheAlgorithms/blob/master/Src/TheAlgorithms/Greedy/flow.JPG?raw=true)
+![overview](https://github.com/habibsql/TheAlgorithms/blob/master/Src/TheAlgorithms/Greedy/flow.JPG?raw=true)
 
 ## Overview:
 
@@ -44,6 +44,7 @@ Output:
 
 ## Difference between Dynamic Programming and Greedy
 Dynamic Programming | Greedy
+--- | ---
 Each step the solution is determined based on solutions of subprograms | Quickly make a choose currentlylooks best.
 Bootomup approach | Top-Down approach
 Slower | Faster
