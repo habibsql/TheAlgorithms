@@ -36,7 +36,7 @@
 
             int minimumCost = costCalculation.CalculateMinimumForLastElement(input);
 
-            minimumCost.Should().Be(17);
+            minimumCost.Should().Be(34);
         }
     }
 }

@@ -6,44 +6,48 @@
 
     public class CostCalculation
     {
+        /// <summary>
+        /// Calculate cost from first element
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public int CalculateMinimumForLastElement(int[,] input)
         {
             int n = 4;
-            var costList = new List<int>(1);
+            int rightDownCost = 0;
 
-            for (int i = 0; i < n; i++)
+            for (int row = 0; row < n; row++)
             {
-                int currentCost = 0;
-
-                for (int j = 0; j < n; j++)
+                if (row == 0)
                 {
-                    currentCost += input[i, j];
-                }
-                int c = 3;
-                for (int index = i + 1; index < n; index++)
-                {
-                    int val = input[index, c];
-                    currentCost += val;
-                }
-
-                if (costList.Count == 0)
-                {
-                    costList.Add(currentCost);
+                    for (int col = 0; col < n; col++)
+                    {
+                        rightDownCost += input[0, col];
+                    }
                 }
                 else
                 {
-                    int previousCost = costList[0];
-
-                    if (previousCost > currentCost)
-                    {
-                        costList[0] = currentCost;
-                    }
+                    rightDownCost += input[row, 3];
                 }
             }
 
-            return costList[0];
+            int downRightCost = 0;
+            for (int col = 0; col < n; col++)
+            {
+                if (col == 0)
+                {
+                    for (int row = 0; row < n; row++)
+                    {
+                        downRightCost += input[row, 0];
+                    }
+                }
+                else
+                {
+                    downRightCost += input[3, col];
+                }
+            }
+
+            return rightDownCost < downRightCost ? rightDownCost : downRightCost;
         }
     }
-
-
 }
