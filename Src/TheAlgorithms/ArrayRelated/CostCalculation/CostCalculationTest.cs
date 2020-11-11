@@ -1,9 +1,6 @@
 ﻿namespace TheAlgorithms.ArrayRelated.CostCalculation
 {
     using FluentAssertions;
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
     using Xunit;
 
     public class CostCalculationTest
@@ -34,9 +31,9 @@
             input[3, 2] = 4;
             input[3, 3] = 9;
 
-            int minimumCost = costCalculation.CalculateMinimumForLastElement(input);
+            int minimumCost = costCalculation.CalculateMinimumCostForLastElement(input);
 
-            minimumCost.Should().Be(34);
+            minimumCost.Should().Be(18);
         }
     }
 }
