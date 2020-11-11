@@ -1,4 +1,4 @@
-﻿![overview](https://github.com/habibsql/TheAlgorithms/blob/master/Src/TheAlgorithms/DynamicProgramming/ov.png?raw=true)
+![overview](https://github.com/habibsql/TheAlgorithms/blob/master/Src/TheAlgorithms/DynamicProgramming/ov.png?raw=true)
 
 ## Overview
 
@@ -24,7 +24,8 @@ many decission sequences may be generated.
 * Optimal subproblems solution are retained so as to avoid recomputation.
 
 ## Difference between Divide and Conquer
-Divide and Conquer | Dynamic Programming
-Partitions a problem into independent smallest sub-problems | Partitions a problem into overlapping sub-problems
-Does not store solutions of subproblems. So recomputation may happend | Store soluions of subproblems and avoid recomputation.
-Topdown approach | Bottomup approach
+ Divide and Conquer | Dynamic Programming |
+ --- | --- |
+ Partitions a problem into independent smallest sub-problems | Partitions a problem into overlapping sub-problems 
+ Does not store solutions of subproblems. So recomputation may happend | Store soluions of subproblems and avoid recomputation. 
+ Topdown approach | Bottomup approach 
