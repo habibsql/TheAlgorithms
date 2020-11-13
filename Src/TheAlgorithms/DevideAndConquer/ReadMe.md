@@ -1,4 +1,4 @@
-﻿![overview](https://github.com/habibsql/TheAlgorithms/blob/master/Src/TheAlgorithms/DynamicProgramming/ov.JPG?raw=true)
+﻿![overview](https://github.com/habibsql/TheAlgorithms/blob/master/Src/TheAlgorithms/DevideAndConquer/ov.JPG?raw=true)
 
 ## Overview
 
