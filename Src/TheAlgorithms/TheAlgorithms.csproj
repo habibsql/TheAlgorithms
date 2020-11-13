@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DevideAndConquer\" />
     <Folder Include="GraphRelated\" />
     <Folder Include="TreeRelated\" />
   </ItemGroup>
